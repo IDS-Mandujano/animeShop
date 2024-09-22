@@ -1,0 +1,36 @@
+.product-card {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    transition: transform 0.2s;
+    box-shadow: 0 4px 20px rgba(169, 1, 152, 0.2);
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card #title{
+    text-align: center;
+}
+
+.product-card img {
+    width: 200px;
+    height: auto;
+    border-radius:8px;
+}
+
+.product-card #price{
+    text-align: end;
+}
+
+.product-card #desc{
+    text-align: justify;
+}

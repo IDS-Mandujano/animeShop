@@ -1,6 +1,6 @@
 <div class="product-card">
-    <h2>{{ producto.title }}</h2>
-    <img [src]="producto.img" alt="{{ producto.title }}">
-    <p>Price: {{ producto.price }}</p>
-    <p>{{ producto.description }}</p>
+    <h4 id="title">{{ producto.title }}</h4>
+    <img [src]="producto.img" alt="{{ producto.title }}" style="max-width: 100%; height: auto;"> <!-- Asegura que la imagen se ajuste -->
+    <p id="price">Price: {{ producto.price }}</p>
+    <p id="desc">{{ producto.description }}</p>
 </div>

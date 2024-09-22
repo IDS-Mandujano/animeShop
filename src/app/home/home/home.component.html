@@ -1,5 +1,13 @@
 <app-header></app-header>
-<div *ngFor="let producto of products" class="card-container">
-    <app-products-cards [producto]="producto"></app-products-cards>
+<div>
+    <app-presentation></app-presentation>
+</div>
+<div class="cards-container">
+    <div *ngFor="let producto of products" class="card-container">
+        <app-products-cards [producto]="producto"></app-products-cards>
+    </div>
+</div>
+<div>
+    <app-banner></app-banner>
 </div>
 <app-footer></app-footer>

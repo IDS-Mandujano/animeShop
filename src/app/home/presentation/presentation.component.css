@@ -1,0 +1,29 @@
+.presentation {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 16px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.presentation img {
+    max-width: 60%;
+    height: auto;
+}

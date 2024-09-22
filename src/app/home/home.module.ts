@@ -5,6 +5,7 @@ import { PresentationComponent } from './presentation/presentation.component';
 import { ProductsCardsComponent } from './products-cards/products-cards.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { BannerComponent } from './banner/banner.component';
 
 
 
@@ -14,7 +15,8 @@ import { FooterComponent } from './footer/footer.component';
     PresentationComponent,
     ProductsCardsComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    BannerComponent
   ],
   imports: [
     CommonModule
