@@ -1,25 +1,5 @@
-<header>
-    <nav class="navbar">
-        <div>
-            <img id="logo" src="logo.png" alt="">
-        </div>
-        <ul class="ul">
-            <li><a href=""><img src="icons/casa.png" alt=""></a></li>
-            <li><a href=""><img src="icons/tag.png" alt=""></a></li>
-            <li><a href=""><img src="icons/compra.png" alt=""></a></li>
-        </ul>
-    </nav>
-</header>
-<footer class="footer">
-    <div class="shop-message">
-        <p>
-            En AnimeShop , nos apasiona llevarte lo mejor del mundo del anime y manga. Desde figuras coleccionables, ropa temática, accesorios únicos, hasta artículos exclusivos de tus series favoritas, estamos aquí para que tu colección sea tan épica como tus personajes preferidos. <br><br><strong>© 2024 AnimeShop</strong></p>
-    </div>
-    <div class="icon_container">
-        <ul>
-            <li><img src="icons/facebook.png" alt=""></li>
-            <li><img src="icons/instagram.png" alt=""></li>
-            <li><img src="icons/youtube.png" alt=""></li>
-        </ul>
-    </div>
-</footer>
+<app-header></app-header>
+<div *ngFor="let producto of products" class="card-container">
+    <app-products-cards [producto]="producto"></app-products-cards>
+</div>
+<app-footer></app-footer>

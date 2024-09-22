@@ -1,1 +1,6 @@
-<h1>cards de productos</h1>
+<div class="product-card">
+    <h2>{{ producto.title }}</h2>
+    <img [src]="producto.img" alt="{{ producto.title }}">
+    <p>Price: {{ producto.price }}</p>
+    <p>{{ producto.description }}</p>
+</div>

@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { PresentationComponent } from './presentation/presentation.component';
 import { ProductsCardsComponent } from './products-cards/products-cards.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -10,7 +12,9 @@ import { ProductsCardsComponent } from './products-cards/products-cards.componen
   declarations: [
     HomeComponent,
     PresentationComponent,
-    ProductsCardsComponent
+    ProductsCardsComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule
