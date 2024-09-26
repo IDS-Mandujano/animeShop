@@ -1,6 +1,7 @@
 {
   "name": "anime-shop",
   "version": "0.0.0",
+  "homepage": "https://IDS-Mandujano.github.io/animeShop",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
